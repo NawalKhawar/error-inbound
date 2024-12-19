@@ -1,0 +1,53 @@
+
+Hi! This is just gonna be me rambling right now as the game is in development, will fix everything lateerrrrrrrr ~
+
+Levels:
+- Level -2 (intro screen)
+- Level -1 (games screen)
+- Level 0 (tutorial)
+- Level 1
+- Level 2
+- Level 3
+- Level 4
+- Level 5
+- Level 6 (outro screen)
+
+
+------- HEADER FILES -------
+
+Game_Constants.h
+Game_Levels.h
+Game_Textures.h
+Utility_Functions.h
+
+
+------- CLASSES -------
+Level
+Player
+Puzzle (?)
+
+Animation 
+Collider (?)
+Render (to draw everything)
+
+Game(?)
+
+-----------------------------------------------------------------------------------
+Yapping Here:
+
+- okay so apparently i cannot declare textures in a separate header file...? 
+NVM I RESOLVED THIS!!
+
+- Render is an abstract class and objects like PlayerRender, DoorRender, PlatformRender etc will be made based off it
+
+WORK ON LEVEL STRUCTURE FIRST!!!
+
+- DONE WITH PAUSE/RESUME USE CASES!
+
+
+
+WINDOW BOUNDS HAVEN'T BEEN PUT!!! Only put the right and left ones since that's the only place the player can move
+
+player only collides with doors or PCs, not LEDs
+
+decrease number of levels? We can't compromise use cases....
